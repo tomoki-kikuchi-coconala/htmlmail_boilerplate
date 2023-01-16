@@ -1,0 +1,17 @@
+@use 'sass:math';
+@use 'src/assets/scss/colors' as colors;
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+.d-wrapper {
+  max-width: 600px;
+}
+
+.d-container {
+  width: 100%;
+  border-spacing: 0;
+  color: colors.$red;
+}
